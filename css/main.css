@@ -1,0 +1,613 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#fp-nav ul li .fp-tooltip{
+    color: #ff6868  !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #ff6868 !important;
+}
+
+.social-network img{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 45px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../img/Rectangle 1.png") no-repeat center top / cover;
+    /*padding-top: 37px;*/
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: "MyriadProRegular";
+    color: #ff6868;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a {
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu li a {
+    font-family: "MyriadProRegular";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+
+}
+
+.menu li {
+    margin-right: 16px;
+    list-style-type: none;
+}
+
+.offer {
+    margin-top: 152px;
+    padding-bottom: 200px;
+}
+
+.offer h1 {
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 52px;
+    color: #ff6868;
+}
+
+.offer p {
+    font-family: 'Gentium Book Basic', serif;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 32px;
+    margin-top: -14px;
+    line-height: 21px;
+
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #ff6868;
+    border: none;
+    width: 102px;
+    height: 46px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+.input {
+    width: 337px;
+    height: 46px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #4a515b;
+    color: #a2a2a2;
+    border: none;
+    border-radius: 3px;
+    padding-left: 27px;
+    outline: none;
+}
+
+/* Service container */
+.service {
+    /*padding-top: 92px;*/
+}
+
+.shape {
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+
+}
+
+
+.service h1 {
+    margin-bottom: 32px;
+    font-family: "MyriadProRegular";
+    text-align: center;
+    font-size: 38px;
+    color: #3a424c;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 92px;
+    margin-top: 38px;
+}
+
+.description__title {
+    font-family: "MyriadProRegular";
+    color: #3a424c;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.description__item {
+    width: 33.333%;
+    text-align: center;
+}
+
+.description__text {
+    color: #99a0a8;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.description__item img {
+    margin-bottom: 22px;
+}
+
+/*Personal*/
+
+.personal {
+    background: url("../img/Rectangle 3.png");
+
+}
+
+.team {
+    display: flex;
+    /*margin-top: -200px;*/
+    /*padding: 64px 0;*/
+}
+
+.team__item {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.name {
+    margin: 0;
+    font-family: "MyriadProRegular";
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #d55e61;
+}
+
+.position {
+    margin: 0;
+    font-family: "MyriadProRegular";
+    color: #d55e61;
+    font-size: 24px;
+}
+
+.about {
+    margin-top: 28px;
+    color: #ffffff;
+    line-height: 21px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+/*App development*/
+
+.app-development {
+    background: url("../img/iphone-6.png") no-repeat center;
+    padding: 70px 0px;
+}
+
+.btn__learn-more {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #ff6868;
+    border: none;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+.app-development__about {
+    margin: 70px 0;
+}
+
+.app-development__about h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ff6868;
+    font-size: 32px;
+
+}
+
+.app-development__about p {
+    margin-top: 23px;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 14px;
+    color: #99a0a8;
+    line-height: 21px;
+}
+
+/*Portfolio*/
+
+.portfolio h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #3a424c;
+    font-size: 34px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    /*margin: 10px 0;*/
+    margin-bottom: 4px;
+    font-size: 13px;
+    padding: 4px;
+    color: #ffffff;
+    background: #ff6868;
+    border: none;
+    min-width: 64px;
+    height: 27px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: white;
+    border-width: 1px;
+    border-color: #ff6868;
+    border-style: solid;
+    color: #ff6868;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works__item {
+    margin: 0;
+    margin-right: 30px;
+    /*margin-top: -5px;*/
+    margin-bottom: -20px;
+    padding: 0;
+}
+
+.works__item img {
+    width: 115%;
+    height: 95%;
+}
+
+.clients {
+    background: url("../img/background-clients.png");
+    margin-top: -5px;
+}
+
+.clients-container {
+    display: flex;
+    align-items: center;
+}
+
+.clients-item {
+    width: 25%;
+    margin-top: 50px;
+    /*margin-bottom: 50px;*/
+
+}
+
+/*Blog*/
+.blog h2 {
+
+    margin-top: 80px;
+    /*margin-bottom: 40px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 38px;
+    color: #3a424c;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.blog-item {
+    display: flex;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.item-info {
+    margin-left: 20px;
+}
+
+.item-info h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #dddddd;
+}
+
+.item-info h1 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #3a424c;
+}
+
+.item-info h1:hover {
+    color: #ff6868;
+    cursor: pointer;
+}
+
+.item-info p {
+    margin-top: 25px;
+    font-family: 'Gentium Book Basic', serif;
+    text-align: justify;
+    max-width: 215px;
+    font-size: 14px;
+    color: #99a0a8;
+}
+
+.btn-load-more {
+    display: block;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    width: 145px;
+    height: 45px;
+    font-size: 14px;
+
+}
+
+/*subscriber*/
+
+.subscriber {
+    background: url("../img/Back-sub.png") no-repeat center/ cover;
+    margin-top: 10px;
+}
+
+.sub h1 {
+    padding-top: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ff6868;
+}
+
+.sub p {
+    font-family: 'Gentium Book Basic', serif;
+    margin-top: 25px;
+    max-width: 420px;
+    text-align: justify;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.marg {
+    margin-bottom: 65px;
+}
+
+/*Pricing*/
+
+.head-price {
+    display: block;
+    text-align: center;
+    /*margin-top: 95px;*/
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 38px;
+    color: #3a424c;
+}
+
+.pricing-list {
+    display: flex;
+}
+
+.pricing-items {
+    width: 299px;
+    border: 1px solid #c0c2c2;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.pricing-header {
+    height: 130px;
+    background: url("../img/background-header-price.png") no-repeat;
+    display: flex;
+}
+
+.pricing-header h1 {
+    padding-top: 45px;
+    padding-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff6868;
+}
+
+.pricing-header h6 {
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #717a84;
+
+}
+
+.pricing-price {
+    margin-left: 110px;
+}
+
+.list ul {
+    list-style-image: url("../img/li-picture.png");
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #99a0a8;
+
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*twitter*/
+
+.twitter {
+    background: url("../img/back-twitter.png");
+}
+
+.text {
+    padding-top: 65px;
+    line-height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+    width: 745px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-part {
+    margin-top: 20px;
+    text-align: center;
+    /*padding-bottom: 65px;*/
+}
+
+.first-part {
+    padding-top: 20px;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 17px;
+    color: white;
+}
+
+.second-part {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 17px;
+    color: #99a0a8;
+}
+
+/*Contact*/
+
+.contact h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 38px;
+    margin-bottom: 65px;
+}
+
+.form-contact input {
+    margin-bottom: 20px;
+    padding: 0;
+    width: 300px;
+    height: 45px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    text-transform: uppercase;
+    background: #f5f7f9;
+    color: #a2a2a2;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+
+}
+
+.big-form {
+    outline: none;
+    padding: 15px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 3px;
+    background: #f5f7f9;
+    color: #a2a2a2;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    width: 910px;
+    height: 255px;
+}
+
+.footer {
+    padding-top: 65px;
+    background: url("../img/footer-back.png");
+}
+
+.footer h6 {
+    color: #ff6868;
+    padding-bottom: 65px;
+}
+.footer-text{
+    color: #99a0a8;
+}
+
+
+
+
+
